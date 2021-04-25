@@ -12,9 +12,9 @@ Com esses elementos podemos agrupar tipos de conteúdo, alterar tamanho e forma 
 
 E agora podemos ver como é a estrutura básica de um arquivo HTML.
 
-A primeira linha do documento deve ser o <!DOCTYPE html>, apesar de parecer um elemento HTML ela apenas diz ao navegador que ele está lidando com um arquivo do tipo HTML5. Os elementos HTML vem logo abaixo.
+A primeira linha do documento deve ser o "''<!DOCTYPE html>''', apesar de parecer um elemento HTML ela apenas diz ao navegador que ele está lidando com um arquivo do tipo HTML5. Os elementos HTML vem logo abaixo.
 
-**<html>**
+'''**<html>**'''
 
 A tag html é a raiz do seu documento, todos os elementos HTML devem estar dentro dela. E nela nós informamos ao navegador qual é o idioma desse nosso documento, através do atributo lang, para o português brasileiro usamos pt-BR.
 
@@ -143,3 +143,4 @@ E o elemento li é um item dentro de uma dessas listas. Um <li> pode conter vár
 Adicionaremos uma lista de contatos ao rodapé da nossa página, e para isso usaremos também o elemento *a* que vimos anteriormente.
 
 Crie um elemento ul e dentro dele adicione um <li> com um elemento a, no atributo href adicione o *link* de alguma rede social que você mantenha e, no conteúdo da âncora coloque o nome dessa rede.
+
