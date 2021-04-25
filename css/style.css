@@ -8,6 +8,10 @@ header {
     margin-top: 70px;
 }
 
+footer {
+    margin-bottom: 30px;
+}
+
 h1 {
     color: blue;
     font-family: fantasy;
