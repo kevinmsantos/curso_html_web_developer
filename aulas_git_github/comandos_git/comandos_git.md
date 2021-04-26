@@ -14,3 +14,10 @@
 - git pull origin master (comando utilizado para atualizar o repositorio local com as alteracoes realizadas no repositorio remoto)
 - git clone endereco_repositorio_a_ser_clonado
 - git remote set-url origin new_url
+
+COMANDOS PARA REMOVER SUBMODULO
+
+- git rm --cached nome_submodulo
+- git -rf .git/modules/nome_submodulo
+- git commit -m"removendo submodulo nome_submodulo"
+- git push origin master (subindo alterações para o repositorio remoto)
