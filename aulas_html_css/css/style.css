@@ -49,5 +49,6 @@ img {
     border-right: 4px dashed pink;
     border-bottom: 1px solid #000;
     border-left: 4px dotted cyan;
+    border-radius: 10px;
     margin: 10px;
 }
