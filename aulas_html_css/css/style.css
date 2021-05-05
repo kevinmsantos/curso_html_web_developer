@@ -1,7 +1,6 @@
 body{
     background: rgb(224, 224, 224);
-    margin-left: 100px;
-    margin-right: 200px;
+    font-family: Verdana;
 }
 
 #foto_perfil {
@@ -39,6 +38,16 @@ img {
 }
 
 #title, .subtitle, .post_title {
+    color: #505050;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: underline;
     color: #505050;
 }
 
