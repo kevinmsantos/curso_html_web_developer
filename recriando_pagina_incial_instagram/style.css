@@ -61,7 +61,16 @@ body {
 }
 
 .instagram-logo {
-    height: 3rem;
+    margin: 22px auto 12px;
+    display: block;
+    overflow: hidden;
+    text-indent: 110%;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+    background-position: 0 -130px;
+    height: 51px;
+    width: 175px;
+    background-image: url(./img/32f0a4f27407.png);
 }
 
 .profile-photo {
