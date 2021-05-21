@@ -16,3 +16,11 @@ console.log(frase.replace("Japão", "Brasil")); // alterando string e imprimindo
 console.log(frase.toUpperCase()); //imprimindo conteudo string no console todo em maiusculo(capitelizado)
 console.log(frase.toLowerCase()); //imprimindo conteudo string no console todo minusculo(descapitalizado)
 alert(frase.replace("Japão", "Brasil")); //alterando conteudo string e enviado alerta na pagina do navegador
+
+function removevogal (str) {
+    str.replace(/[a|e|i|o|u|á|à|ã|é|í|ó|ô|õ|ú]/gi, "");
+
+    return str;    
+}
+
+console.log(removevogal(frase))
